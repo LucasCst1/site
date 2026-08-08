@@ -14,10 +14,20 @@
 </svg>
 <?php
 $str= "hello world";
-echo "<h1>Hellooo world!</h1></br>";
+echo "<h1>Hello world!</h1></br>";
 echo "<h4>$str</h4>";
+
+$request= $_SERVER['REQUEST_URI'];
+$basePath= $strtok($request, '?');
+
+switch($basePath) {
+  case '/':
+  case '/home':
+    require __DIR__ . '/wind.php';
+    break;
+}
 ?>
-<a href="/wind.php">Em tailwind</a>
+<a href="./wind.php">Em tailwind</a>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
