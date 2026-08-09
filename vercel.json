@@ -3,11 +3,11 @@
   "rewrites": [
   {
     "source": "/(.*)",
-    "destination": "/api/wind"
+    "destination": "/api/wind.php"
   },
   {
     "source": "/(.*)",
-    "destination": "/api/index"
+    "destination": "/api/index.php"
   }
   ],
   "cleanUrls": true,
