@@ -2,20 +2,20 @@
   "name": "site",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [],
+  "homepage": "https://github.com/LucasCst1/site#readme",
+  "bugs": {
+    "url": "https://github.com/LucasCst1/site/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LucasCst1/site.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
+  "author": "",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/LucasCst1/site/issues"
-  },
-  "homepage": "https://github.com/LucasCst1/site#readme"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
