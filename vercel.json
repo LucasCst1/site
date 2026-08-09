@@ -2,12 +2,12 @@
   "version": 2,
   "rewrites": [
   {
-    "source": "/about",
-    "destination": "/api/wind.php"
+    "source": "/(.*)",
+    "destination": "/api/wind"
   },
   {
     "source": "/(.*)",
-    "destination": "/api/index.php"
+    "destination": "/api/index"
   }
   ],
   "cleanUrls": true,
